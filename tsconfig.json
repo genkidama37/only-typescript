@@ -1,17 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "target": "ES2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "jsx": "react",
     "noImplicitAny": false,
     "sourceMap": true,
-    "outDir":"./lib/"
+    "rootDir": "./src/",
+    "outDir": "./lib/"
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
